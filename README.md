@@ -1,6 +1,5 @@
 # YatriRakshak
-# YatriRakshak - Smart Tourist Safety Platform
-
+# Smart Tourist Safety Monitoring & Incident Response System using Al, Geo-Fencing, and Blockchain-based Digital ID
 ![YatriRakshak Logo](https://via.placeholder.com/150?text=YatriRakshak)
 
 ## 🌟 Overview
