@@ -1,6 +1,7 @@
 # YatriRakshak
 # Smart Tourist Safety Monitoring & Incident Response System using Al, Geo-Fencing, and Blockchain-based Digital ID
-![YatriRakshak Logo](https://via.placeholder.com/150?text=YatriRakshak)
+<img width="1024" height="1024" alt="Google_AI_Studio_2025-09-26T14_55_21 319Z" src="https://github.com/user-attachments/assets/32e94e09-2e3e-4e39-a345-d343228b800d" />
+
 
 ## 🌟 Overview
 
