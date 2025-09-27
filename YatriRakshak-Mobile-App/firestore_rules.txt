@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allows authenticated users to manage their own user data
+    match /users/{userId} {
+      allow read, update, create, delete: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow users to manage their guardian contacts
+      match /guardians/{guardianId} {
+        allow read, write, create, update, delete: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      // Allow users to manage their emergency alerts
+      match /emergency_alerts/{alertId} {
+        allow read, write, create, update, delete: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      // Allow users to manage their location data
+      match /locations/{locationId} {
+        allow read, write, create, update, delete: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+    
+    // Allow users to read public safety information if needed
+    match /public_safety/{document} {
+      allow read: if request.auth != null;
+    }
+  }
+}

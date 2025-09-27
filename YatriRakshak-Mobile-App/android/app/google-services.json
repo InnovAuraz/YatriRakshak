@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968880598890",
+    "project_id": "yatri-rakshak",
+    "storage_bucket": "yatri-rakshak.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968880598890:android:9b334480fbb08ee8d3ff13",
+        "android_client_info": {
+          "package_name": "com.example.yatri_rakshak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxQpXjcX3HCL335su2ngkx8AliEy1RY2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
